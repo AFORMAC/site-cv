@@ -11,6 +11,7 @@
     'num' => $_POST['num']
   );
 
+
   foreach ($champ as $key => $value)
   {
     if ($value == "") {
@@ -21,5 +22,4 @@
         header('Location:index.php?toto='.$ok);
     }
   }
-
 ?>
